@@ -56,6 +56,27 @@ data:extend(
 			{type"item", name="lead-ore", amount=1}
 		},
 	result_count = 3
-	}
+	},
+	
+	--Building Recipes
+	
+	--Ore Refinery
+	{
+		type = "recipe",
+		name = "rm-ore-refinery",
+		icon = "__reactionary-measures__/img/ore-refinery.png",
+		icon_size = 156,
+		category = "advanced-crafting",
+		enabled = false,
+		ingredients = 
+		{
+			{type"item", name="iron-plate",amount=50},
+			{type"item", name="steel-plate",amount=25},
+			{type"item", name="copper-cable",amount=50},
+			{type"item", name="electronic-circuit",amount=25}
+		},
+		result = "rm-ore-refinery",
+		result_count = 1
+	},
 }
 )

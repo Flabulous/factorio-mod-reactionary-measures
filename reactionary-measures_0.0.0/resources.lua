@@ -79,8 +79,5 @@ data:extend(
 	category = "resource"
 },
 
---Rock Salt
-
-
 }
 )

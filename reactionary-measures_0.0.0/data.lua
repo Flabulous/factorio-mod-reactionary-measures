@@ -16,5 +16,6 @@ require("resources")
 require("recipes")
 require("buildings")
 require("items")
+require("technology")
 
 data:extend{antiRad}
