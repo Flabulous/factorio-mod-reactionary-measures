@@ -16,8 +16,8 @@ data:extend(
 	
 	dying_explosion = "big-explosion",
 	
-	collision_box = {{-2.25, -2.25}, {2.25, 2.25}},
-	selection_box = {{-2.5, -2.5}, {2.5, 2.5}},
+	collision_box = {{-2, -1}, {1, 1.5}},
+	selection_box = {{-2.5, -2.5}, {1, 1.5}},
 	
 	animation =
 	{

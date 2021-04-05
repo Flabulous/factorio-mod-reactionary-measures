@@ -33,8 +33,8 @@ data:extend(
 		group = "intermediate-products",
 		subgroup = "rm-intermediate",
 		stack_size = 50,
-		icon = "__reactionary-measures__/img/galena-ore.png",
-		icon_size = 512
+		icon = "__reactionary-measures__/img/silver-ore.png",
+		icon_size = 84
 	},
 	--Lead
 	{
@@ -43,8 +43,8 @@ data:extend(
 		group = "intermediate-products",
 		subgroup = "rm-intermediate",
 		stack_size = 50,
-		icon = "__reactionary-measures__/img/galena-ore.png",
-		icon_size = 512
+		icon = "__reactionary-measures__/img/lead-ore.png",
+		icon_size = 84
 	
 	},
 

@@ -21,6 +21,7 @@ data:extend(
 	},
 	result = "iron-ore",
 	result_count = 3
+	energy_required = 4,
 	},
 	
 	--Copper Ore Processing
@@ -35,6 +36,7 @@ data:extend(
 	},
 	result = "copper-ore",
 	result_count = 3
+	energy_required = 4,
 	},
 
 	--Galena Ore Processing 
@@ -56,6 +58,7 @@ data:extend(
 			{type"item", name="lead-ore", amount=1}
 		},
 	result_count = 3
+	energy_required = 4,
 	},
 	
 	--Building Recipes

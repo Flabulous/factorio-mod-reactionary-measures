@@ -47,24 +47,24 @@ data:extend(
 	stage_counts = {0},
     stages =
     {
-      sheet =
+      sheet =d
       {
         filename = "__base__/graphics/entity/iron-ore/iron-ore.png",
         priority = "extra-high",
         width = 64,
         height = 64,
-        frame_count = 4,
-        variation_count = 8,
-		hr_version = 
-		{
-			filename = "__base__/graphics/entity/iron-ore/hr-iron-ore.png",
-			priority = "extra-high",
-			width = 128,
-			height = 128,
-			frame_count = 8,
-			variation_count = 8,
-			scale = 0.5
-		}
+        frame_count = 1,
+        variation_count = 1,
+--		hr_version = 
+--		{
+--			filename = "__base__/graphics/entity/iron-ore/hr-iron-ore.png",
+--			priority = "extra-high",
+--			width = 128,
+--			height = 128,
+--			frame_count = 1,
+--			variation_count = 1,
+--			scale = 0.5
+--		},
       }
     },
 	map_color = {r=0.0, g=0.0, b=0},
