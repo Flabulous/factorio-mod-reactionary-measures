@@ -21,7 +21,7 @@ data:extend(
 	},
 	result = "iron-ore",
 	result_count = 3
-	energy_required = 4,
+	energy_required = 9,
 	},
 	
 	--Copper Ore Processing
@@ -36,7 +36,7 @@ data:extend(
 	},
 	result = "copper-ore",
 	result_count = 3
-	energy_required = 4,
+	energy_required = 9,
 	},
 
 	--Galena Ore Processing 
@@ -69,7 +69,7 @@ data:extend(
 		name = "rm-ore-refinery",
 		icon = "__reactionary-measures__/img/ore-refinery.png",
 		icon_size = 156,
-		category = "advanced-crafting",
+		subgroup="processing",
 		enabled = false,
 		ingredients = 
 		{
