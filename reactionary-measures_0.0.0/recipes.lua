@@ -20,7 +20,7 @@ data:extend(
 		{type="item", name="iron-ore", amount=2}
 	},
 	result = "iron-ore",
-	result_count = 3
+	result_count = 3,
 	energy_required = 9,
 	},
 	
@@ -35,7 +35,7 @@ data:extend(
 		{type="item", name="copper-ore", amount=2}
 	},
 	result = "copper-ore",
-	result_count = 3
+	result_count = 3,
 	energy_required = 9,
 	},
 
@@ -50,16 +50,38 @@ data:extend(
 	enabled = true,
 	ingredients = 
 	{
-		{type="item", name="galena-ore", amount=2}
+		{type="item", name="galena-ore", amount=6}
 	},
 	results = 
 		{
-			{type"item", name="silver-ore", amount=1},
-			{type"item", name="lead-ore", amount=1}
+			{type="item", name="silver-ore", amount=2},
+			{type="item", name="lead-ore", amount=4},
+			{type="item", name="fluorite-ore", amount=2}
 		},
-	result_count = 3
 	energy_required = 4,
 	},
+	
+	--Rock Salt Processing
+	{
+	type = "recipe",
+	icon = "__reactionary-measures__/img/rock-salt.png",
+	icon_size = 512,
+	name = "rm-rock-salt-processing",
+	category = "chemistry",
+	subgroup = "rm-intermediate",
+	enabled = true,
+	ingredients = 
+		{
+			{type="item", name="rock-salt", amount=2}
+		},
+	results = 
+		{
+			{type="item", name="sodium", amount=1},
+			{type="fluid", name="chlorine-gas", amount=1},
+		},
+	energy_required = 4,
+	},
+	
 	
 	--Building Recipes
 	
@@ -69,14 +91,14 @@ data:extend(
 		name = "rm-ore-refinery",
 		icon = "__reactionary-measures__/img/ore-refinery.png",
 		icon_size = 156,
-		subgroup="processing",
+		category = "advanced-crafting",
 		enabled = false,
 		ingredients = 
 		{
-			{type"item", name="iron-plate",amount=50},
-			{type"item", name="steel-plate",amount=25},
-			{type"item", name="copper-cable",amount=50},
-			{type"item", name="electronic-circuit",amount=25}
+			{type="item", name="iron-plate",amount=50},
+			{type="item", name="steel-plate",amount=25},
+			{type="item", name="copper-cable",amount=50},
+			{type="item", name="electronic-circuit",amount=25}
 		},
 		result = "rm-ore-refinery",
 		result_count = 1
