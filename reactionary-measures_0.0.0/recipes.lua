@@ -67,7 +67,7 @@ data:extend(
 	icon = "__reactionary-measures__/img/rock-salt.png",
 	icon_size = 512,
 	name = "rm-rock-salt-processing",
-	category = "chemistry",
+	category = "rm-ore-processing",
 	subgroup = "rm-intermediate",
 	enabled = true,
 	ingredients = 
@@ -82,6 +82,24 @@ data:extend(
 	energy_required = 4,
 	},
 	
+	--Coal Cracking
+	{
+		type = "recipe",
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 270,
+		name = "rm-coal-cracking",
+		category = "rm-ore-processing",
+		enabled = true,
+			ingredients = 
+		{
+			{type="item", name="coal", amount=2}
+		},
+	results = 
+		{
+			{type="item", name="graphite", amount=1},
+		},
+	energy_required = 1,
+	},
 	
 	--Building Recipes
 	
