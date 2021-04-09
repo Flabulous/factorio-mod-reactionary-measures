@@ -115,7 +115,7 @@ data:extend(
 	},
 	results = 
 	{
-		{type="item", name="fluorine-gas", amount=3},
+		{type="fluid", name="hydrogen-fluoride", amount=3},
 	},
 	energy_required = 1,
 	},

@@ -1,6 +1,11 @@
 local hit_effects = require("__base__/prototypes/entity/hit-effects")
 local sounds = require("__base__/prototypes/entity/sounds")
 
+function orerefinerypipepicutres()
+{
+
+}, 
+
 data:extend(
 {
 	--Ore Refinery
@@ -18,6 +23,20 @@ data:extend(
 	
 	collision_box = {{-2, -2}, {2, 2}},
 	selection_box = {{-2, -2}, {2, 2}},
+	
+	fluid_box =
+    {
+      base_area = 2,
+      height = 2,
+      base_level = 0,
+	  
+      pipe_connections =
+      {
+        {type = "input", position = {-2, -2}},
+        {type = "output", position = {2, 2}}
+      },
+      production_type = "input-output"
+    },
 	
 	animation =
 	{
@@ -41,9 +60,7 @@ data:extend(
 		emissions_per_minute = 8,
 	},
 	
-	
-	
-	energy_usage = "0.50MW",
+	energy_usage = "0.75MW",
 	ingredient_count = 4,
 	allowed_effects = {"consumption", "speed", "productivity", "pollution"},
 	
