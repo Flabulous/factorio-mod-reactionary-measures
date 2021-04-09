@@ -84,22 +84,42 @@ data:extend(
 	
 	--Coal Cracking
 	{
-		type = "recipe",
-		icon = "__reactionary-measures__/img/graphite.png",
-		icon_size = 270,
-		name = "rm-coal-cracking",
-		category = "rm-ore-processing",
-		enabled = true,
-			ingredients = 
-		{
-			{type="item", name="coal", amount=2}
-		},
+	type = "recipe",
+	icon = "__reactionary-measures__/img/graphite.png",
+	icon_size = 270,
+	name = "rm-coal-cracking",
+	category = "rm-ore-processing",
+	enabled = true,
+	ingredients = 
+	{
+		{type="item", name="coal", amount=2}
+	},
 	results = 
-		{
-			{type="item", name="graphite", amount=1},
-		},
+	{
+		{type="item", name="graphite", amount=1},
+	},
 	energy_required = 1,
 	},
+	
+	--Fluorite Cracking
+	{
+	type = "recipe",
+	icon = "__reactionary-measures__/img/graphite.png",
+	icon_size = 270,
+	name = "rm-coal-cracking",
+	category = "rm-ore-processing",
+	enabled = true,
+	ingredients = 
+	{
+		{type="item", name="fluorite-ore", amount=1}
+	},
+	results = 
+	{
+		{type="item", name="fluorine-gas", amount=3},
+	},
+	energy_required = 1,
+	},
+	
 	
 	--Building Recipes
 	
@@ -108,7 +128,7 @@ data:extend(
 		type = "recipe",
 		name = "rm-ore-refinery",
 		icon = "__reactionary-measures__/img/ore-refinery.png",
-		icon_size = 156,
+		icon_size = 1,
 		category = "advanced-crafting",
 		enabled = false,
 		ingredients = 

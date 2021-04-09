@@ -8,7 +8,7 @@ data:extend(
 	type = "assembling-machine",
 	name = "rm-ore-refinery",
 	icon = "__reactionary-measures__/img/ore-refinery.png",
-	icon_size = 156,
+	icon_size = 144,
 	flags = {"placeable-neutral","placeable-player", "player-creation"},
 	
 	minable = {mining_time = 0.5, result = "rm-ore-refinery"},
@@ -16,15 +16,15 @@ data:extend(
 	
 	dying_explosion = "big-explosion",
 	
-	collision_box = {{-2, -1}, {1, 1.5}},
-	selection_box = {{-2.5, -2.5}, {1, 1.5}},
+	collision_box = {{-2, -2}, {2, 2}},
+	selection_box = {{-2, -2}, {2, 2}},
 	
 	animation =
 	{
 		filename = "__reactionary-measures__/img/ore-refinery.png",
 		priority = "high",
-		width = 156,
-		height = 156,
+		width = 144,
+		height = 144,
 		frame_count = 1
 	},
 	

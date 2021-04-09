@@ -4,7 +4,7 @@ data:extend(
 	type = "technology",
 	name = "rm-ore-processing",
 	icon = "__reactionary-measures__/img/ore-refinery.png",
-	icon_size = 156,
+	icon_size = 144,
 	icon_mipmaps = 4,
 	effects =
 	{
