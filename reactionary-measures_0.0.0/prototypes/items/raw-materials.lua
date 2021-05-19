@@ -39,9 +39,16 @@ data:extend(
 		icon_size = 84
 	
 	},
-	--Monazite Ore : NOT IMPLEMENTED 
-	--{
-	--},
+	--Monazite Ore 
+	{
+		type = "item"
+		name = "monazite-ore",
+		group = "intermediate-products",
+		subgroup = "rm-raw",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/monazite-ore.png",
+		icon_size = 84
+	},
 	--Rock Salt
 	{
 		type = "item",

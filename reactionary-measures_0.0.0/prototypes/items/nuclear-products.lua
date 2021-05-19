@@ -7,46 +7,117 @@ data:extend(
 		group = "intermediate-products",
 	},
 	
-	--Plutonium-239 Pellet
+	--Depleted Actinoid Mixture
 	{
 		type = "item",
-		name = "plutonium-pellet",
-		group = "intermediate-products",
-		subgroup = "rm-nuclear",
+		name = "dp-actinoid-mixture",
+		group = "rm-nuclear",
 		stack_size = 50,
-		icon = "__reactionary-measures__/img/plutonium-ore.png",
+		icon = "__reactionary-measures__/img/graphite.png",
 		icon_size = 84
 	},
-	--Thorium-232 Pellet
+	--Enriched Actinoid Mixture
 	{
 		type = "item",
-		name = "thorium-pellet",
-		group = "intermediate-products",
-		subgroup = "rm-nulcear,
+		name = "en-actinoid-mixture",
+		group = "rm-nuclear",
 		stack_size = 50,
-		icon = "__reactionary-measures__/img/thorium-ore.png"
+		icon = "__reactionary-measures__/img/graphite.png",
 		icon_size = 84
 	},
-	--Uranium-233 Pellet
+	
+	--Plutonium (IV) Nitrate
 	{
 		type = "item",
-		name = "uranium233-pellet",
+		name = "plutonium-iv-nitrate",
+		group = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png"
+		icon_size = 84
+	},
+	
+	--Plutonium Dioxide
+	{
+		type = "item",
+		name = "plutonium-dioxide,"
+		group = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png"
+		icon_size = 84
+	},
+	
+	--Depleted Uranium Dioxide
+	{
+		type = "item",
+		name = "dp-uranium-dioxide",
+		group = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+	--Enriched Uranium Dioxide
+	{
+		type = "item",
+		name = "en-uranium-dioxide",
 		group = "intermediate-products",
 		subgroup = "rm-nuclear",
 		stack_size = 50,
 		icon = "__reactionary-measures__/img/graphite.png",
 		icon_size = 84
 	},
-	--Uranium-235 Pellet 	[UNUSED]
---	{
---		type = "item",
---		name = "uranium235-pellet",
---		group = "intermediate-products",
---		subgroup = "rm-nuclear",
---		stack_size = 50,
---		icon = "__reactionary-measures__/img/graphite.png",
---		icon_size = 84
---	},
+	
+	--Depleted Uranium Hexafluoride
+	{
+		type = "item",
+		name = "dp-uranium-hexafluoride",
+		group = "intermediate-products",
+		subgroup = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+	--Enriched Uranium Hexafluoride
+	{
+		type = "item",
+		name = "en-uranium-hexafluoride",
+		group = "intermediate-products",
+		subgroup = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+	
+	--Depleted Uranyl Fluoride
+	{
+		type = "item",
+		name = "dp-uranyl-fluoride",
+		group = "intermediate-products",
+		subgroup = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+	--Enriched Uranyl Fluoride
+	{
+		type = "item",
+		name = "en-uranyl-fluoride",
+		group = "intermediate-products",
+		subgroup = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+	
+	--Yellowcake
+	{
+		type = "item",
+		name = "yellowcake",
+		group = "rm-nuclear",
+		stack_size = 50,
+		icon = "__reactionary-measures__/img/graphite.png",
+		icon_size = 84
+	},
+
 
 })
 
