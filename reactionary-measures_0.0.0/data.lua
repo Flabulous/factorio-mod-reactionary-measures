@@ -12,10 +12,6 @@ local antiRad = table.deepcopy(data.raw["armor"]["heavy-armor"])
 --	saltOre.minable = {mining_time = 1, result = "rock-salt", count = 1, mining_particle = "iron-ore-particle"}
 
 
-require("resources")
-require("recipes")
-require("buildings")
-require("items")
-require("technology")
+require("prototypes-initalize")
 
 data:extend{antiRad}

@@ -1,0 +1,6 @@
+require("buildings-items")
+require("componenets")
+require("elements")
+require("nuclear-products")
+require("raw-materials")
+require("utility")

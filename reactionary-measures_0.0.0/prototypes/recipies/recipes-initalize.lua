@@ -1,0 +1,7 @@
+require("advanced-chemistry")
+require("building-recipies")
+require("distillation-processing")
+require("enfp-process")
+require("nuclear-processing")
+require("ore-processing")
+require('reeact-process")
