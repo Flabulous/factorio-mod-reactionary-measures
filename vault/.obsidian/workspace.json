@@ -13,11 +13,11 @@
             "state": {
               "type": "canvas",
               "state": {
-                "file": "development/workspace.canvas",
+                "file": "development/fuel-chain.canvas",
                 "viewState": {
-                  "x": 528.2133879692893,
-                  "y": 206.00292903724625,
-                  "zoom": -1.5301436337525085
+                  "x": 724.5,
+                  "y": 1566.5,
+                  "zoom": -2.9946844883346913
                 }
               }
             }
@@ -88,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "development/workspace.canvas",
+                "file": "development/fuel-chain.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "development/workspace.canvas",
+                "file": "development/fuel-chain.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "development/workspace.canvas"
+                "file": "development/fuel-chain.canvas"
               }
             }
           }
@@ -151,15 +151,18 @@
   },
   "active": "c90a46c06a5f117a",
   "lastOpenFiles": [
-    "development/recipies/ore-refinery.md",
+    "development/building-workspace.canvas",
     "development/recipies/chemical-plant.md",
-    "development/recipies/electrolysis-plant.md",
-    "development/workspace.canvas",
-    "development/planner.md",
-    "development/items.md",
-    "development/buildings.md",
+    "development/recipies/distillery.md",
+    "development/recipies/ore-refinery.md",
+    "development/fuel-chain.canvas",
     "development/recipies/buildings.md",
     "development/recipies/assembler.md",
+    "development/reaction-workspace.canvas",
+    "development/items.md",
+    "development/planner.md",
+    "development/buildings.md",
+    "Untitled.md",
     "guidebook.md",
     "development/recipies",
     "development/recipies.canvas",

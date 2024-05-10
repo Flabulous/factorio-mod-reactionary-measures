@@ -1,8 +1,3 @@
----
-
-kanban-plugin: basic
-
----
 
 ## raw
 
@@ -11,8 +6,6 @@ kanban-plugin: basic
 - [ ] Silver
 - [ ] Lead
 - [ ] Air
-
-
 ## elements
 
 - [ ] Chlorine
@@ -22,8 +15,6 @@ kanban-plugin: basic
 - [ ] Oxygen
 - [ ] Sodium
 - [ ] Copper
-
-
 ## compounds
 
 - [ ] Ammonia
@@ -37,8 +28,6 @@ kanban-plugin: basic
 - [ ] Sodium Fluoride
 - [ ] Sodium Hydroxide
 - [ ] Sodium Chloride
-
-
 ## enfp-proccess
 
 - [ ] Yellowcake
@@ -47,8 +36,6 @@ kanban-plugin: basic
 - [ ] Enriched Uranyl Fluoride
 - [ ] Enriched Uranium Dioxide
 - [ ] Depleted Actinoid Mixture
-
-
 ## reaact-process
 
 - [ ] Depleted Uranium Hexafluoride
@@ -57,16 +44,4 @@ kanban-plugin: basic
 - [ ] Enriched Actinoid Mixture Separation
 - [ ] Plutonium Nitrate Hydranization
 - [ ] Plutonium Dioxide
-
-
 ## utility
-
-
-
-
-
-%% kanban:settings
-```
-{"kanban-plugin":"basic"}
-```
-%%

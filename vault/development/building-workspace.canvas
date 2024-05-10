@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"599ef72c5839fa30","x":-193,"y":-192,"width":353,"height":60,"type":"text","text":"## Modular Nuclear Reactor"},
+		{"id":"121ec7734bb04ad9","x":-432,"y":20,"width":250,"height":60,"type":"text","text":"*control-rod-assembly*"},
+		{"id":"7af4a444ca0b7a41","x":-141,"y":20,"width":250,"height":60,"type":"text","text":"*breeder-component*"},
+		{"id":"24ef190c4e23c2bb","x":155,"y":20,"width":250,"height":60,"type":"text","text":"*ionization-chamber*"}
+	],
+	"edges":[
+		{"id":"50b907864f59be70","fromNode":"599ef72c5839fa30","fromSide":"bottom","toNode":"7af4a444ca0b7a41","toSide":"top"},
+		{"id":"c9192200bbf73d02","fromNode":"599ef72c5839fa30","fromSide":"bottom","toNode":"121ec7734bb04ad9","toSide":"top"},
+		{"id":"4495cd1418e9edf3","fromNode":"599ef72c5839fa30","fromSide":"bottom","toNode":"24ef190c4e23c2bb","toSide":"top"}
+	]
+}
