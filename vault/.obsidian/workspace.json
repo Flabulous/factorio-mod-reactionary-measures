@@ -1,0 +1,172 @@
+{
+  "main": {
+    "id": "3e5e4b903b4efe65",
+    "type": "split",
+    "children": [
+      {
+        "id": "71734841f748541b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c90a46c06a5f117a",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "development/workspace.canvas",
+                "viewState": {
+                  "x": 528.2133879692893,
+                  "y": 206.00292903724625,
+                  "zoom": -1.5301436337525085
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "301d312d919c3125",
+    "type": "split",
+    "children": [
+      {
+        "id": "69f7b84c10924260",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "da320ea42f770214",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "af97f6d289304346",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bab567c426aeca29",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3fda23f49a6c4fc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "795eae693b16b279",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a30a657a3260708e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "development/workspace.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "cfebe95587d92e35",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "development/workspace.canvas",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3f3ca8b22c843c70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c86d3149d1c7e24b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "development/workspace.canvas"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "c90a46c06a5f117a",
+  "lastOpenFiles": [
+    "development/recipies/ore-refinery.md",
+    "development/recipies/chemical-plant.md",
+    "development/recipies/electrolysis-plant.md",
+    "development/workspace.canvas",
+    "development/planner.md",
+    "development/items.md",
+    "development/buildings.md",
+    "development/recipies/buildings.md",
+    "development/recipies/assembler.md",
+    "guidebook.md",
+    "development/recipies",
+    "development/recipies.canvas",
+    "development/recipies.md",
+    "documentation/workspace.canvas",
+    "development",
+    "documentation",
+    "Welcome.md"
+  ]
+}
